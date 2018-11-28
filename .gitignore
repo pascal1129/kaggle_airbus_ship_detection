@@ -5,6 +5,7 @@ datasets/
 dataset/
 logs/
 *.h5
+*.pkl
 results/
 temp/
 tmp/
