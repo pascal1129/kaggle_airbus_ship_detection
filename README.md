@@ -1,9 +1,15 @@
 
 ## Kaggle Airbus Ship Detection Challenge : 21st solution
 
-This project is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can **help you quickly get a baseline solution**.
+This project is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection)。
+
+It can help you quickly get a **baseline solution**, which is not bad.
+
+
 
 [![FVXIkF.md.jpg](https://s1.ax1x.com/2018/11/28/FVXIkF.md.jpg)](https://imgchr.com/i/FVXIkF)
+
+
 
 
 
@@ -12,6 +18,8 @@ This project is for Kaggle competiton [Airbus Ship Detection Challenge](https://
 [Kaggle新手银牌（21st）：Airbus Ship Detection 卫星图像分割检测](https://zhuanlan.zhihu.com/p/48381892)
 
 [用Mask R-CNN训练自己的COCO数据集（Detectron）](https://zhuanlan.zhihu.com/p/50127900)
+
+
 
 
 
@@ -32,6 +40,8 @@ This project is for Kaggle competiton [Airbus Ship Detection Challenge](https://
     |
     └─3_submit                     3、generate your submission
        └─csv                           reference .csv file
+
+
 
 
 
@@ -69,11 +79,13 @@ My codes are in the folder [./1_detectron_infer/](https://github.com/pascal1129/
 
 
 
-#### 5、visualization
+#### 5、Visualization
 
 Run [analyse_log.py](https://github.com/pascal1129/airbus_ship_detection/blob/master/2_model/analyse_log.py), then you can get the visualization picture.
 
 ![result](https://github.com/pascal1129/airbus_ship_detection/blob/master/2_model/log/20181103.png)
+
+
 
 
 #### 6、Get the final submission
