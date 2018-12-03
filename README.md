@@ -63,7 +63,7 @@ My codes are based on Detectron. So before using it, you need to install caffe2,
 $ docker pull pascal1129/detectron:caffe2_cuda9_aliyun
 ```
 
-in order to get the latest docker image, you can build the latest image with the official dockerfile: [Detectron/docker/Dockerfile](https://github.com/facebookresearch/Detectron/blob/master/docker/Dockerfile).
+In order to get the latest docker image, you can build the latest image with the official dockerfile: [Detectron/docker/Dockerfile](https://github.com/facebookresearch/Detectron/blob/master/docker/Dockerfile).
 
 
 
