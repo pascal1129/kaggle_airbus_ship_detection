@@ -1,7 +1,7 @@
 
 ## Kaggle Airbus Ship Detection Challenge : 21st solution
 
-This project is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection)
+This project is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection).
 
 It can help you quickly get a **baseline solution**, which is not bad.
 
@@ -47,39 +47,39 @@ It can help you quickly get a **baseline solution**, which is not bad.
 
 ## Steps
 
-#### 1、Generate COCO standard dataset 
+#### 1. Generate COCO standard dataset 
 
-Run codes in `./0_rle_to_coco`. The guide has been written in `./0_rle_to_coco/README.md`
+Run codes in `./0_rle_to_coco`. The guide has been written in markdwon file `./0_rle_to_coco/README.md`
 
 ![dataset annotation](https://s1.ax1x.com/2018/10/31/iWlN8A.png)
 
 
 
-#### 2、Get Detectron environment
+#### 2. Get Detectron environment
 
-You can use my docker image, which is a little out of date, by the following command:
+My codes are based on Detectron. So before using it, you need to install caffe2, which is quite troublesome. You can use my docker image, which is a little out of date, by the following command:
 
 ```
 $ docker pull pascal1129/detectron:caffe2_cuda9_aliyun
 ```
 
-Or you can build the official dockerfile:  [Detectron/docker/Dockerfile](https://github.com/facebookresearch/Detectron/blob/master/docker/Dockerfile), in order to get the latest docker image.
+in order to get the latest docker image, you can build the latest image with the official dockerfile: [Detectron/docker/Dockerfile](https://github.com/facebookresearch/Detectron/blob/master/docker/Dockerfile).
 
 
 
-#### 3、Msodify the source code in detectron 
+#### 3. Msodify the source code in detectron 
 
 My codes are in the folder `./1_detectron_infer/`, you can replace the origin files in detectron with my codes. 
 
 
 
-#### 4、Change the configuration file and run
+#### 4. Change the configuration file and run
 
  Confirm the .yaml file in `./2_model/model/` and start training. In addition, remember to use `|tee` command, so you can get the log file like [./2_model/log/20181103.log](https://github.com/pascal1129/airbus_ship_detection/blob/master/2_model/log/20181103.log)
 
 
 
-#### 5、Visualization
+#### 5. Visualization
 
 Run `./2_model/analyse_log.py`, then you can get the visualization picture.
 
@@ -88,7 +88,7 @@ Run `./2_model/analyse_log.py`, then you can get the visualization picture.
 
 
 
-#### 6、Get the final submission
+#### 6. Get the final submission
 
 Run `./3_submit/get_final_csv.py`
 
