@@ -36,7 +36,7 @@ It can help you quickly get a **baseline solution**, which is not bad.
     |
     ├─2_model                      2、model and trainning log
     │  ├─log                           log and visualization script
-    │  └─model                         configure file and .pkl
+    │  └─model                         configure file and .pkl (.pkl not be uploaded)
     |
     └─3_submit                     3、generate your submission
        └─csv                           reference .csv file
@@ -57,7 +57,7 @@ Run codes in `./0_rle_to_coco`. The guide has been written in markdwon file `./0
 
 #### 2. Get Detectron environment
 
-My codes are based on Detectron. So before using it, you need to install caffe2, which is quite troublesome. You can use my docker image, which is a little out of date, by the following command:
+My codes are based on [Detectron](https://github.com/facebookresearch/Detectron). So before using it, you need to install caffe2, which is quite troublesome. You can use my docker image, which is a little out of date, by the following command:
 
 ```
 $ docker pull pascal1129/detectron:caffe2_cuda9_aliyun
@@ -70,6 +70,13 @@ In order to get the latest docker image, you can build the latest image with the
 #### 3. Msodify the source code in detectron 
 
 My codes are in the folder `./1_detectron_infer/`, you can replace the origin files in detectron with my codes. 
+
+my code|origin code needed to be replaced
+---------------------------------|--------------
+dataset_catalog.py        | ./detectron/datasets/dataset_catalog.py
+dummy_datasets.py     | ./detectron/datasets/dummy_datasets.py 
+infer_airbus.py              | ./tools/infer_simple.py   
+
 
 
 
@@ -90,5 +97,5 @@ Run `./2_model/analyse_log.py`, then you can get the visualization picture.
 
 #### 6. Get the final submission
 
-Run `./3_submit/get_final_csv.py`
+Run `./3_submit/get_final_csv.py`.
 
