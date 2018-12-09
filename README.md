@@ -7,19 +7,15 @@ It can help you quickly get a **baseline solution**, which is not bad.
 
 
 
-[![FVXIkF.md.jpg](https://s1.ax1x.com/2018/11/28/FVXIkF.md.jpg)](https://imgchr.com/i/FVXIkF)
-
-
-
-
-
 ## Related article
+
+##### These guides are only in Chinese：
 
 [Kaggle新手银牌（21st）：Airbus Ship Detection 卫星图像分割检测](https://zhuanlan.zhihu.com/p/48381892)
 
 [用Mask R-CNN训练自己的COCO数据集（Detectron）](https://zhuanlan.zhihu.com/p/50127900)
 
-
+[辅助操作指南：Docker使用、镜像制作、Demo运行...](https://github.com/pascal1129/public_notes)
 
 
 
@@ -99,3 +95,6 @@ Run `./2_model/analyse_log.py`, then you can get the visualization picture.
 
 Run `./3_submit/get_final_csv.py`.
 
+
+
+![trained](https://s1.ax1x.com/2018/10/29/i2Vmh8.jpg)
