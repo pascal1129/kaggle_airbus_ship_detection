@@ -5,7 +5,7 @@ This project is for Kaggle competiton [Airbus Ship Detection Challenge](https://
 
 It can help you quickly get a **baseline solution**, which is not bad.
 
-[![FGKLRA.md.png](https://s1.ax1x.com/2018/12/09/FGKLRA.md.png)](https://imgchr.com/i/FGKLRA)
+![infer_example](https://github.com/pascal1129/kaggle_airbus_ship_detection/blob/master/images/infer_example.jpg)
 
 
 
@@ -53,7 +53,7 @@ It can help you quickly get a **baseline solution**, which is not bad.
 
 Run codes in `./0_rle_to_coco`. The guide has been written in markdwon file `./0_rle_to_coco/README.md`
 
-![dataset annotation](https://s1.ax1x.com/2018/10/31/iWlN8A.png)
+![dataset annotation](https://github.com/pascal1129/kaggle_airbus_ship_detection/blob/master/images/annotation.png)
 
 
 

@@ -4,7 +4,7 @@
 
 This code is for Kaggle competiton [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection), which can help you transform [RLE](https://www.kaggle.com/paulorzp/run-length-encode-and-decode) into [COCO](http://cocodataset.org/#format-data) annotations. 
 
-![dataset annotation](https://s1.ax1x.com/2018/10/31/iWlN8A.png)
+![dataset annotation](https://github.com/pascal1129/kaggle_airbus_ship_detection/blob/master/images/annotation.png)
 
 It has 3 main functions:
 
